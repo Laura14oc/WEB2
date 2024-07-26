@@ -1,0 +1,207 @@
+/* CSS global */
+body {
+    background-color: #171717;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header y navegación */
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar a:hover {
+    background: #e91e63;
+}
+
+/* Header */
+.header {
+    display: flex;
+    height: 60vh;
+    background: url(IMAGENES/Data\ Analyst\ LinkedIn\ Banner.jpg) no-repeat center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.title {
+    margin-top: 80px;
+    margin-left: 20px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Inicio */
+.inicio {
+    margin: 40px 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.inicio p {
+    font-size: 18px;
+    color: #b0c4de;
+    font-style: italic;
+}
+
+.inicio a {
+    color: #e91e63;
+    text-decoration: underline;
+}
+
+.inicio a:hover {
+    text-decoration: none;
+    color: #ff4081;
+}
+
+/* Contenido */
+.content {
+    margin: 40px 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content .title {
+    font-size: 40px;
+    color: #ffeb3b;
+    font-family: 'Playfair Display', serif;
+}
+
+.content p {
+    font-size: 20px;
+    color: #dcdcdc;
+}
+
+/* Sección Ventajas */
+.content p em {
+    font-weight: bold;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.box-container .box {
+    background: #2c2c2c;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 16px 16px rgba(0, 0, 0, .3);
+    margin: 20px;
+}
+
+/* Sección Datos con Sentido */
+.datos-con-sentido {
+    background: url(IMAGENES/Data\ 2jpg.jpg) no-repeat center;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.datos-con-sentido .title {
+    font-size: 35px;
+    color: #ff5722;
+    font-family: 'Lobster', cursive;
+}
+
+.datos-con-sentido p {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* Sección Dashboard */
+.dashboard {
+    padding: 50px 0;
+}
+
+.dashboard .title {
+    font-size: 35px;
+    color: #3f51b5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dashboard p {
+    font-size: 18px;
+    color: #c0c0c0;
+}
+
+/* Sección Herramientas */
+.herramientas {
+    padding: 50px 0;
+}
+
+.herramientas .title {
+    font-size: 35px;
+    color: #00bcd4;
+    font-family: 'Playfair Display', serif;
+}
+
+.herramientas p, .herramientas ul {
+    font-size: 18px;
+    color: #fff;
+}
+
+.herramientas ul {
+    list-style-type: square;
+    margin: 10px 0 20px 20px;
+}
+
+.herramientas ul li {
+    margin: 5px 0;
+}
+
+/* Sección Ubicación */
+.ubicacion {
+    padding: 50px 0;
+}
+
+.ubicacion .title {
+    font-size: 35px;
+    color: #ff9800;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ubicacion img {
+    border: 3px solid #fff;
+    border-radius: 10px;
+}
+
+.ubicacion figcaption {
+    font-size: 14px;
+    color: #cfcfcf;
+    margin-top: 10px;
+}
